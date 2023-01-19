@@ -44,9 +44,9 @@ export function validateEvent(obj?: Record<string, any>): OFCEvent | null {
         return null;
     }
 
-    if (!obj.title) {
+    /*if (!obj.title) {
         return null;
-    }
+    }*/
 
     if (!obj.allDay && !obj.startTime) {
         return null;
